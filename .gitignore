@@ -1,0 +1,91 @@
+# Python and local runtime state
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+env/
+node_modules/
+**/node_modules/
+.env
+.env.*
+
+# macOS / editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local planning/runtime state
+.learnings/
+.superpowers/
+logs/
+tmp/
+temp/
+*.pid
+*.lock
+.mgs_workbench_manifest.json
+mgs_review_notes.jsonl
+
+# Credentials, browser state, and API captures
+config.yaml
+config.local.*
+config/*local*.*
+config/projects.json
+partner_reverse/partner_cookies.json
+partner_reverse/captured_apis.json
+partner_reverse/sub_accounts.json
+partner_reverse/reports/
+partner_reverse/*账号*.xlsx
+partner_reverse/*账户*.xlsx
+**/*cookie*.json
+**/*cookies*.json
+**/*token*.json
+**/*secret*.json
+
+# Exported or generated business data. Keep these outside the source repo.
+data/raw/
+data/processed/
+data/reports/
+data/previews/
+data/**/*.csv
+data/**/*.tsv
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.jsonl
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.jsonl
+
+# Local client reports, chat exports, screenshots, and login notes
+aide_*.html
+aide_*.png
+poma_*.html
+poma_*.png
+登录态记录*.md
+蔡司_*.md
+竞品*.md
+
+# Generated media and local report artifacts
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep directory placeholders available in a fresh checkout.
+!data/**/.gitkeep
+!partner_reverse/**/.gitkeep
