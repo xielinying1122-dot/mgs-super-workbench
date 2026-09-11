@@ -1,0 +1,44 @@
+【聚光投放日报】
+日期：{date}
+项目：{project_name}
+
+一、昨日核心数据
+━━━━━━━━━━━━━━━━━━━━
+总消耗：¥{daily_cost}
+月度累计：¥{month_cost}（{month}月预算 ¥{month_budget}，进度 {progress}%）
+
+二、信息流广告（Feeds）
+━━━━━━━━━━━━━━━━━━━━
+消耗：¥{feeds_cost}（{feeds_cost_mom}）
+CTR：{feeds_ctr}%（{feeds_ctr_mom}）
+CPC：¥{feeds_cpc}（{feeds_cpc_mom}）
+CPE：¥{feeds_cpe}（{feeds_cpe_mom}）
+
+三、搜索广告（SEM）
+━━━━━━━━━━━━━━━━━━━━
+消耗：¥{sem_cost}（{sem_cost_mom}）
+CTR：{sem_ctr}%（{sem_ctr_mom}）
+CPC：¥{sem_cpc}（{sem_cpc_mom}）
+CPE：¥{sem_cpe}（{sem_cpe_mom}）
+
+四、达人投放
+━━━━━━━━━━━━━━━━━━━━
+昨日报备达人：{kol_count} 人
+昨日非报备达人：{koc_count} 人
+
+五、关键词排名(SOV)
+━━━━━━━━━━━━━━━━━━━━
+{sov_content}
+
+六、异常与风险
+━━━━━━━━━━━━━━━━━━━━
+⚠️ 待补充：异常消耗/低效广告/关键词下降
+
+七、今日动作
+━━━━━━━━━━━━━━━━━━━━
+1. 继续放量：
+2. 暂停观察：
+3. 关键词优化：
+
+━━━━━━━━━━━━━━━━━━━━
+自动生成于 {date}
